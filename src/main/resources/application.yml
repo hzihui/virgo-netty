@@ -1,0 +1,14 @@
+server:
+  port: 2380
+  servlet:
+    context-path: /admin
+spring:
+  application:
+    name: virgo-netty
+#Virgo 配置
+virgo:
+  netty:
+    all-idle-time: 60
+logging:
+  level:
+    com.hzihui.virgo.netty: debug
